@@ -23,7 +23,6 @@ The program includes error handling to ensure players can only input valid lette
 
 Programming Language: C++
 
-Core Concepts:
 Object-Oriented Design: The game logic is encapsulated within a HangmanGame class, which manages the game state and interactions.
 Dynamic Memory Management: The game utilizes dynamic memory allocation for storing words and guessed letters, demonstrating a strong grasp of memory management in C++.
 String Manipulation: Utilizes C++ standard libraries like cstring to manipulate strings, handle word comparisons, and manage game state.
