@@ -1,4 +1,5 @@
 **Hangman Game with Visual Representation**
+
 Developed using Object-Oriented Programming in C++
 
 This project is a fully functional Hangman Game that incorporates visual feedback and an engaging user experience. The game is centered around guessing fruit names, offering a fun and interactive way to challenge the player's vocabulary and memory.
@@ -6,7 +7,9 @@ This project is a fully functional Hangman Game that incorporates visual feedbac
 **Key Features:**
 
 Random Word Selection: The game selects a random fruit name from a predefined list, ensuring that each playthrough provides a unique challenge. The word is chosen using the rand() function, and the game is seeded with the current time for added randomness.
+
 Interactive User Experience: Players input single-letter guesses, with immediate feedback provided for correct, incorrect, and previously guessed letters. The game ensures valid input by prompting the player to enter only alphabetic characters.
+
 Visual Hangman Representation: The game includes dynamic ASCII art, which progressively depicts the hangman figure as incorrect guesses are made. This adds a layer of excitement and tension to the game as players see the consequences of their mistakes.
 
 Game Flow and Logic:
@@ -17,7 +20,9 @@ Robust Error Handling:
 The program includes error handling to ensure players can only input valid letters. It prevents repeated guesses and provides clear messages for invalid or already guessed letters.
 
 **Technical Details:**
+
 Programming Language: C++
+
 Core Concepts:
 Object-Oriented Design: The game logic is encapsulated within a HangmanGame class, which manages the game state and interactions.
 Dynamic Memory Management: The game utilizes dynamic memory allocation for storing words and guessed letters, demonstrating a strong grasp of memory management in C++.
